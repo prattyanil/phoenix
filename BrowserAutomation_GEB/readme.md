@@ -49,6 +49,8 @@ IDE Used : IntelliJ
 
 - This maven project can be integrated with any CI / CD Pipeline and can be run using maven command line commands
 
+- The spock framework generates HTML and JSON reports and can be found under >>build/spock-reports which can be further customized
+
 - NOTE: The browser drivers needs to be placed under C:\PROJECT\DriverExe (part of BrowserAutomation_GEB project)
 
 
