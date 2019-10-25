@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<configuration debug="true" scan="true" scanPeriod="30 seconds">
+    <variable name="base.name" value="sample-project"/>
+    <!-- Use a variable that is or could be set a server environment e.g. shell variables, spring profiles etc.. -->
+    <if condition='!isDefined("APP_ENV")'>
+        <then>
+            <!-- Local Machine -->
+            <variable name="log.location" value="build"/>
+        </then>
+        <else>
+            <!-- Server -->
+            <variable name="log.location" value="/usr/local/tomcat/logs/${base.name}"/>
+            <variable name="override.location" value="/export/home/${base.name}"/>
+        </else>
+    </if>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.location}/${base.name}.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{ISO8601} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log.location}/archive/${base.name}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>50MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Add extra Appender elements here, if they are required for special logging, e.g. uncommitted transactions in the payment server -->
+
+    <!-- Use this on dev/test/sit etc, to override to debug if necessary -->
+    <include optional="true" file="${override.location:-./}/${base.name}-override.xml"/>
+
+    <root level="debug">
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

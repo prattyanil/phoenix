@@ -1,0 +1,179 @@
+plugins {
+    id "com.tngtech.jgiven.gradle-plugin" version "0.17.1"
+}
+
+
+ext {
+    // The drivers we want to use
+    drivers = ["firefox", "chrome", "phantomJs","iexplore","safari"]
+
+
+    ext {
+        groovyVersion = '2.4.1'
+        gebVersion = '1.1.1'
+        seleniumVersion = '2.53.1'
+        chromeDriverVersion = '2.10'
+        phantomJsVersion = '1.9.7'
+        slf4jVersion = '1.7.13'
+
+        // Spock works with Java 1.6 and above
+        sourceCompatibility = 1.6
+    }
+}
+
+repositories {
+ 
+    maven { url 'https://artifactory/artifactory/libs-release/' }
+    jcenter()
+
+}
+
+
+
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+apply from: "gradle/osSpecificDownloads.gradle"
+
+apply plugin: "com.tngtech.jgiven.gradle-plugin"
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+task wrapper(type: Wrapper) {
+
+    gradleVersion = '3.5.1'
+
+}
+
+
+
+
+dependencies {
+
+    // SLF4J
+    testCompile group: 'org.slf4j', name: 'jcl-over-slf4j', version: slf4jVersion
+    testCompile group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
+
+    // Microsoft SQL Server Driver
+    testCompile group: 'com.microsoft.sqlserver', name: 'sqljdbc4', version: '4.0'
+
+    testCompile group: 'joda-time', name: 'joda-time', version: '2.9.9'
+
+    // JUnit 4
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    testCompile group: 'mysql', name: 'mysql-connector-java', version: '5.1.39'
+    testCompile group: 'net.sourceforge.jtds', name: 'jtds', version: '1.3.1'
+
+    // Apache Common Utils
+    testCompile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
+
+    //Hamcrest
+    testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+    testCompile group: 'org.hamcrest', name: 'java-hamcrest', version: '2.0.0.0'
+
+    testCompile group: 'org.codehaus.groovy.modules.http-builder', name: 'http-builder', version: '0.7.1'
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.1-groovy-2.4'
+    testCompile group: 'org.apache.ivy', name: 'ivy', version: '2.4.0'
+
+    // Selenium API
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-api', version: '2.45.0'
+    // Selenium Java
+    testCompile group: "org.seleniumhq.selenium", name: "selenium-java", version: "2.53.1"
+    // Drivers
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '2.45.0'
+    // Selenium Support
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-support', version: '2.45.0'
+
+    // Rest Assured Libraries
+    testCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.0.0'
+
+    // H2 DB Drivers
+    testCompile group: 'com.h2database', name: 'h2', version: '1.4.190'
+
+    // Apache Spark
+    compile 'com.sparkjava:spark-core:2.3'
+    compile 'com.google.code.gson:gson:2.5'
+
+    //  Groovy-based DSL library for working with remote servers through SSH (https://github.com/aestasit/sshoogr)
+    compile group: 'com.aestasit.infrastructure.sshoogr', name: 'sshoogr', version: '0.9.26'
+
+    //JGiven
+    testCompile 'com.tngtech.jgiven:jgiven-junit:0.17.1'
+
+    testCompile "com.tngtech.jgiven:jgiven-spock:0.17.1"
+
+    //Config - HOCON
+    testCompile group: 'com.typesafe', name: 'config', version: '1.3.0'
+
+    // SQL Builder
+    testCompile group: 'ca.krasnay', name: 'sqlbuilder', version: '1.2'
+
+    //faker
+    testCompile group: 'com.github.javafaker', name: 'javafaker', version: '0.18'
+
+    //beanio
+    testCompile group: 'org.beanio', name: 'beanio', version: '2.1.0'
+    //
+
+}
+
+
+final BUILD_DATE = new Date().format('dd_MMMM_yyyy_HHmm')
+
+task zipJGivenReport(type: Zip) {
+    from '/build/reports/jgiven/test/html/'
+    include '*'
+    include '*/*' //to include contents of a folder present inside Reports directory
+    archiveName "Report_${BUILD_DATE}.zip"
+    destinationDir(file('/build/reports/jgiven/'))
+}
+
+
+test {
+    maxParallelForks = 4
+    forkEvery = 20
+    include "**/*Test.*"
+    include "**/*Func.*"
+    include "**/*Load.*"
+}
+
+task deleteTestResults(type: Delete) {
+    delete fileTree('build/test-results') {
+        include '**/*.*'
+    }
+}
+
+test.finalizedBy jgivenTestReport
+
+task runScript(type: Exec) {
+
+    description 'Running Xray Groovy Script'
+    def xrayScript,scriptPath
+
+    /* Need to split the space-delimited value in the exec.args */
+    if(System.getProperty("exec.args") != null) {
+        String[] args = System.getProperty("exec.args").split()
+
+        def groovyHome = System.getenv("GROOVY_HOME")
+        def groovyc = Os.isFamily(Os.FAMILY_WINDOWS) ? "groovy.bat" : "groovysh"
+
+        /* Run the Groovy Scripts based on arguments provided */
+        if (args.length == 1) {
+            xrayScript = "XraySingleTestUpdate"
+            scriptPath = new String(project.projectDir.toString()).toString() + "/src/test/resources/" + xrayScript
+            commandLine "${groovyHome}\\bin\\${groovyc}", scriptPath, args[0]
+
+        } else {
+            xrayScript = "XrayTestSuiteUpdate"
+            scriptPath = new String(project.projectDir.toString()).toString() + "/src/test/resources/" + xrayScript
+            commandLine "${groovyHome}\\bin\\${groovyc}", scriptPath, args[0], args[1]
+        }
+    }
+
+}
+

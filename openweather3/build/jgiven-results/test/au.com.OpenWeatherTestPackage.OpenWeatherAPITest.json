@@ -1,0 +1,837 @@
+{
+  "className": "au.com.OpenWeatherTestPackage.OpenWeatherAPITest",
+  "name": "Open Weather API",
+  "scenarios": [
+    {
+      "className": "au.com.OpenWeatherTestPackage.OpenWeatherAPITest",
+      "testMethodName": "$spock_feature_1_0",
+      "description": "open weather API Test 01 - invalid APPID",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I have sent a request to the openweather API",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I have sent a request to the openweather API"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 5122800
+            },
+            {
+              "name": "I POST a JSON Request with $",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I POST a JSON Request with"
+                },
+                {
+                  "value": "{external_id\u003dDEMO_Test, name\u003dStation Registration key test, latitude\u003d22.22, longitude\u003d-122.42, altitude\u003d333}",
+                  "argumentInfo": {
+                    "argumentName": "payload",
+                    "formattedValue": "{external_id\u003dDEMO_Test, name\u003dStation Registration key test, latitude\u003d22.22, longitude\u003d-122.42, altitude\u003d333}"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 19852100
+            },
+            {
+              "name": "I print the JSON Response",
+              "words": [
+                {
+                  "value": "and",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I print the JSON Response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 23537000
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 302800
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 282500
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "401",
+                  "argumentInfo": {
+                    "argumentName": "response",
+                    "formattedValue": "401"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 11064400
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info.",
+                  "argumentInfo": {
+                    "argumentName": "response",
+                    "formattedValue": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1471400
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 2063838600
+        }
+      ],
+      "durationInNanos": 2063838600,
+      "executionStatus": "SUCCESS"
+    },
+    {
+      "className": "au.com.OpenWeatherTestPackage.OpenWeatherAPITest",
+      "testMethodName": "$spock_feature_1_1",
+      "description": "open weather API Test 02 - New Station Registration",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [
+        "payload"
+      ],
+      "casesAsTable": true,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I have sent a request to the openweather API",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I have sent a request to the openweather API"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 324400
+            },
+            {
+              "name": "I POST a JSON Request with $",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I POST a JSON Request with"
+                },
+                {
+                  "value": "{external_id\u003dDEMO_TEST001, name\u003dTeam Demo Test Station 001, latitude\u003d33.33, longitude\u003d-122.43, altitude\u003d222}",
+                  "argumentInfo": {
+                    "parameterName": "payload",
+                    "argumentName": "payload",
+                    "formattedValue": "{external_id\u003dDEMO_TEST001, name\u003dTeam Demo Test Station 001, latitude\u003d33.33, longitude\u003d-122.43, altitude\u003d222}"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 45900
+            },
+            {
+              "name": "I print the JSON Response",
+              "words": [
+                {
+                  "value": "and",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I print the JSON Response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2418000
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 194200
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 94500
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [
+            "{external_id\u003dDEMO_TEST001, name\u003dTeam Demo Test Station 001, latitude\u003d33.33, longitude\u003d-122.43, altitude\u003d222}"
+          ],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 655358300
+        },
+        {
+          "caseNr": 2,
+          "steps": [
+            {
+              "name": "I have sent a request to the openweather API",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I have sent a request to the openweather API"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 138500
+            },
+            {
+              "name": "I POST a JSON Request with $",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I POST a JSON Request with"
+                },
+                {
+                  "value": "{external_id\u003dDEMO_TEST002, name\u003dTeam Demo Test Station 002, latitude\u003d44.44, longitude\u003d-122.44, altitude\u003d111}",
+                  "argumentInfo": {
+                    "parameterName": "payload",
+                    "argumentName": "payload",
+                    "formattedValue": "{external_id\u003dDEMO_TEST002, name\u003dTeam Demo Test Station 002, latitude\u003d44.44, longitude\u003d-122.44, altitude\u003d111}"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 48500
+            },
+            {
+              "name": "I print the JSON Response",
+              "words": [
+                {
+                  "value": "and",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I print the JSON Response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 4494600
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 251200
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 243000
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [
+            "{external_id\u003dDEMO_TEST002, name\u003dTeam Demo Test Station 002, latitude\u003d44.44, longitude\u003d-122.44, altitude\u003d111}"
+          ],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 653616100
+        }
+      ],
+      "durationInNanos": 1308974400
+    },
+    {
+      "className": "au.com.OpenWeatherTestPackage.OpenWeatherAPITest",
+      "testMethodName": "$spock_feature_1_2",
+      "description": "open weather API Test 03 -Fetch Registered Stations",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [
+        "response",
+        "response2",
+        "response3",
+        "response4",
+        "response5"
+      ],
+      "casesAsTable": true,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I have sent a request to the openweather API",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I have sent a request to the openweather API"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 205700
+            },
+            {
+              "name": "I send a GET Request with",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I send a GET Request with"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 76600
+            },
+            {
+              "name": "I print the JSON Response",
+              "words": [
+                {
+                  "value": "and",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I print the JSON Response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 4253900
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 437500
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 125700
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 164100
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 76600
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 112200
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "DEMO_TEST001",
+                  "argumentInfo": {
+                    "parameterName": "response",
+                    "argumentName": "response",
+                    "formattedValue": "DEMO_TEST001"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1031000
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "Team Demo Test Station 001",
+                  "argumentInfo": {
+                    "parameterName": "response2",
+                    "argumentName": "response",
+                    "formattedValue": "Team Demo Test Station 001"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1090400
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "33.33",
+                  "argumentInfo": {
+                    "parameterName": "response3",
+                    "argumentName": "response",
+                    "formattedValue": "33.33"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1183800
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "-122.43",
+                  "argumentInfo": {
+                    "parameterName": "response4",
+                    "argumentName": "response",
+                    "formattedValue": "-122.43"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 986000
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "222",
+                  "argumentInfo": {
+                    "parameterName": "response5",
+                    "argumentName": "response",
+                    "formattedValue": "222"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 959100
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [
+            "DEMO_TEST001",
+            "Team Demo Test Station 001",
+            "33.33",
+            "-122.43",
+            "222"
+          ],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 738007900
+        },
+        {
+          "caseNr": 2,
+          "steps": [
+            {
+              "name": "I have sent a request to the openweather API",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I have sent a request to the openweather API"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 273800
+            },
+            {
+              "name": "I send a GET Request with",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I send a GET Request with"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 128300
+            },
+            {
+              "name": "I print the JSON Response",
+              "words": [
+                {
+                  "value": "and",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I print the JSON Response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 5824000
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 383900
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 809300
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 103500
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 83600
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 116600
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "DEMO_TEST002",
+                  "argumentInfo": {
+                    "parameterName": "response",
+                    "argumentName": "response",
+                    "formattedValue": "DEMO_TEST002"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 675700
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "Team Demo Test Station 002",
+                  "argumentInfo": {
+                    "parameterName": "response2",
+                    "argumentName": "response",
+                    "formattedValue": "Team Demo Test Station 002"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 663100
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "44.44",
+                  "argumentInfo": {
+                    "parameterName": "response3",
+                    "argumentName": "response",
+                    "formattedValue": "44.44"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 576300
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "-122.44",
+                  "argumentInfo": {
+                    "parameterName": "response4",
+                    "argumentName": "response",
+                    "formattedValue": "-122.44"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 560000
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "111",
+                  "argumentInfo": {
+                    "parameterName": "response5",
+                    "argumentName": "response",
+                    "formattedValue": "111"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 632600
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [
+            "DEMO_TEST002",
+            "Team Demo Test Station 002",
+            "44.44",
+            "-122.44",
+            "111"
+          ],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 670315600
+        }
+      ],
+      "durationInNanos": 1408323500
+    }
+  ],
+  "tagMap": {}
+}

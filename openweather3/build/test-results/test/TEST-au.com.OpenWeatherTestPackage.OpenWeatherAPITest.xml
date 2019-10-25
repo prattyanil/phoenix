@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-23T03:12:23" hostname="SPAY000227" time="5.481">
+  <properties/>
+  <testcase name="Running openweather DEMO_Test" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="2.756"/>
+  <testcase name="open weather API Test 02 - New Station Registration[0]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.656"/>
+  <testcase name="open weather API Test 02 - New Station Registration[1]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.654"/>
+  <testcase name="open weather API Test 03 -Fetch Registered Stations[0]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.738"/>
+  <testcase name="open weather API Test 03 -Fetch Registered Stations[1]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.671"/>
+  <system-out><![CDATA[
+Test Class: au.com.OpenWeatherTestPackage.OpenWeatherAPITest
+
+ Open weather API Test 01 - invalid APPID
+
+   Given I have sent a request to the openweather API
+    When I POST a JSON Request with {external_id=DEMO_Test, name=Station Registration key test, latitude=22.22, longitude=-122.42, altitude=333}
+     And I print the JSON Response
+    When get response
+    When get response
+    Then The Assertion Should Pass 401
+    Then The Assertion Should Pass Invalid API key. Please see http://openweathermap.org/faq#error401 for more info.
+
+
+ Open weather API Test 02 - New Station Registration
+
+   Given I have sent a request to the openweather API
+    When I POST a JSON Request with <payload>
+     And I print the JSON Response
+    When get response
+    When get response
+
+  Cases:
+
+   | # | payload                                                                                                      | Status  |
+   +---+--------------------------------------------------------------------------------------------------------------+---------+
+   | 1 | {external_id=DEMO_TEST001, name=Team Demo Test Station 001, latitude=33.33, longitude=-122.43, altitude=222} | Success |
+   | 2 | {external_id=DEMO_TEST002, name=Team Demo Test Station 002, latitude=44.44, longitude=-122.44, altitude=111} | Success |
+
+
+ Open weather API Test 03 -Fetch Registered Stations
+
+   Given I have sent a request to the openweather API
+    When I send a GET Request with
+     And I print the JSON Response
+    When get response
+    When get response
+    When get response
+    When get response
+    When get response
+    Then The Assertion Should Pass <response>
+    Then The Assertion Should Pass <response2>
+    Then The Assertion Should Pass <response3>
+    Then The Assertion Should Pass <response4>
+    Then The Assertion Should Pass <response5>
+
+  Cases:
+
+   | # | response     | response2                  | response3 | response4 | response5 | Status  |
+   +---+--------------+----------------------------+-----------+-----------+-----------+---------+
+   | 1 | DEMO_TEST001 | Team Demo Test Station 001 |     33.33 |   -122.43 |       222 | Success |
+   | 2 | DEMO_TEST002 | Team Demo Test Station 002 |     44.44 |   -122.44 |       111 | Success |
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/anil.kumar/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.12/42db62298b899818ff17352cbc00050e940bbfb0/slf4j-simple-1.7.12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/anil.kumar/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.3/d90276fff414f06cb375f2057f6778cd63c6082f/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+]]></system-err>
+</testsuite>
