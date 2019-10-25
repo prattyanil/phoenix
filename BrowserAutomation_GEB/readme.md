@@ -49,6 +49,8 @@ IDE Used : IntelliJ
 
 - This maven project can be integrated with any CI / CD Pipeline and can be run using maven command line commands
 
+- NOTE: The browser drivers needs to be placed under C:\PROJECT\DriverExe (part of BrowserAutomation_GEB project)
+
 
 
 Scope of Improvements :
