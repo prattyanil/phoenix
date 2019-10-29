@@ -17,11 +17,14 @@ class TestSpec extends GebSpec
         given: "User is on Borrowing Capacity Calculator"
         to BorrowCalculatorPage
 
-        when: "Populate Estimation Details"
+        when: "Estimation details are populated"
         "Populate Estimation Details"(your_income, your_other_income, living_expenses, current_homeloan,
                 other_loan, other_commitments, creditcard_limits)
 
-        then: "Dashboard page title should contain 'Providers' "
+        and: "borrowing capacity is calculated"
+        "calculate borrowing capacity"()
+
+        then: "Calculated borrowing estimate should be correct"
         "Fetch borrowing estimate"() == expected_borrowing_estimate
 
         where:
@@ -37,12 +40,14 @@ class TestSpec extends GebSpec
         given: "User is on Borrowing Capacity Calculator"
         to BorrowCalculatorPage
 
-        when: "click start over button"
+        when: "The estimation details are populated "
         "Populate Estimation Details"("80000", "10000", "500", "0", "100", "0", "10000")
+        "calculate borrowing capacity"()
 
-        then:
+        and: "The start over button is clicked"
+
+        then: "All data fields should be reset"
         "start over test"()== true
-
 
     }
 

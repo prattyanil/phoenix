@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae73d7c5-579d-452e-b0cc-5e0ad85eeef5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spock-reports/gebspockspecfiles.TestSpec.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/gebspockspecfiles.TestSpec.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spock-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gebpomfiles/BorrowCalculatorPage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/gebpomfiles/BorrowCalculatorPage.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gebspockspecfiles/TestSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/gebspockspecfiles/TestSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gebspockspecfiles/TestSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gebspockspecfiles/TestSpec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gebspockspecfiles/TestSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gebspockspecfiles/TestSpec.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../openweather3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,7 +29,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="374">
-                <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+                <caret line="58" selection-start-line="58" selection-end-line="58" />
               </first_editor>
               <second_editor />
             </state>
@@ -33,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gebpomfiles/BorrowCalculatorPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="e#21#36#0" expanded="true" />
               </folding>
@@ -45,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gebspockspecfiles/TestSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="316">
+              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
               <folding>
                 <element signature="e#27#51#0" expanded="true" />
               </folding>
@@ -57,8 +63,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/spock-reports/gebspockspecfiles.TestSpec.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#6;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#12;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,9 +126,9 @@
         <option value="$PROJECT_DIR$/src/commonlib/GlobalConstants.groovy" />
         <option value="$PROJECT_DIR$/src/commonlib/GroovyUtils.groovy" />
         <option value="$PROJECT_DIR$/src/gebpomfiles/flag.groovy" />
-        <option value="$PROJECT_DIR$/src/gebpomfiles/BorrowCalculatorPage.groovy" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/gebpomfiles/BorrowCalculatorPage.groovy" />
         <option value="$PROJECT_DIR$/src/gebspockspecfiles/TestSpec.groovy" />
       </list>
     </option>
@@ -326,20 +337,11 @@
       <updated>1571876736162</updated>
       <workItem from="1571876739744" duration="14157000" />
       <workItem from="1571894429295" duration="12002000" />
-      <workItem from="1571980052132" duration="3018000" />
+      <workItem from="1571980052132" duration="3947000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSpec_start_over_test - 2019.10.25 at 14h 57m 05s.xml">
-      <configuration name="TestSpec.start over test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSpec_(1) - 2019.10.25 at 14h 59m 11s.xml">
-      <configuration name="TestSpec (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSpec_(1) - 2019.10.25 at 15h 00m 01s.xml">
-      <configuration name="TestSpec (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSpec_(1) - 2019.10.25 at 15h 00m 29s.xml">
       <configuration name="TestSpec (1)" configurationId="JUnit" />
     </history-entry>
@@ -361,15 +363,24 @@
     <history-entry file="TestSpec_(1) - 2019.10.25 at 16h 36m 02s.xml">
       <configuration name="TestSpec (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSpec_(1) - 2019.10.30 at 10h 15m 30s.xml">
+      <configuration name="TestSpec (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpec_(1) - 2019.10.30 at 10h 22m 40s.xml">
+      <configuration name="TestSpec (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpec_(1) - 2019.10.30 at 10h 23m 30s.xml">
+      <configuration name="TestSpec (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29177000" />
+    <option name="totallyTimeSpent" value="30106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1648" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -378,7 +389,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,7 +399,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -510,7 +521,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="374">
-            <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <caret line="58" selection-start-line="58" selection-end-line="58" />
           </first_editor>
           <second_editor />
         </state>
@@ -518,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gebpomfiles/BorrowCalculatorPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        <state relative-caret-position="357">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="e#21#36#0" expanded="true" />
           </folding>
@@ -528,15 +539,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/spock-reports/gebspockspecfiles.TestSpec.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#6;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#12;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gebspockspecfiles/TestSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="316">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
           <folding>
             <element signature="e#27#51#0" expanded="true" />
           </folding>

@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ab54d493-5283-47d5-8676-7bca6c58b4e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/aggregated_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/aggregated_report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/gebspockspecfiles.TestSpec.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/gebspockspecfiles.TestSpec.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/src/gebpomfiles/BorrowCalculatorPage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/src/gebpomfiles/BorrowCalculatorPage.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/src/gebspockspecfiles/TestSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/src/gebspockspecfiles/TestSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/target/classes/gebspockspecfiles/TestSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/target/classes/gebspockspecfiles/TestSpec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/target/classes/gebspockspecfiles/TestSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/target/classes/gebspockspecfiles/TestSpec.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -441,7 +448,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-272" y="-1102" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

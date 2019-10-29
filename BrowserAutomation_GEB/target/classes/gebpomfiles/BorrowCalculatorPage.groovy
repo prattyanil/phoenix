@@ -52,10 +52,12 @@ class BorrowCalculatorPage extends Page
         other_commitments_textbox << other_commitments
         total_creditcard_limits_textbox << creditcard_limits
 
+    }
+
+    def "calculate borrowing capacity"(){
+
         calculate_borrow_capacity_button.click()
         sleep(2000)
-
-
     }
 
     def "Fetch estimation details"(){
