@@ -21,7 +21,7 @@ class TestSpec extends GebSpec
         "Populate Estimation Details"(your_income, your_other_income, living_expenses, current_homeloan,
                 other_loan, other_commitments, creditcard_limits)
 
-        then: "Dashboard page title should contain 'Providers' "
+        then: "Fetch borrowing estimate"
         "Fetch borrowing estimate"() == expected_borrowing_estimate
 
         where:
@@ -40,7 +40,7 @@ class TestSpec extends GebSpec
         when: "click start over button"
         "Populate Estimation Details"("80000", "10000", "500", "0", "100", "0", "10000")
 
-        then:
+        then: "All data fields should be reset"
         "start over test"()== true
 
 

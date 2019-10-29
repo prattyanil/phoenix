@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab54d493-5283-47d5-8676-7bca6c58b4e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/OpenWeatherTestPackage/OpenWeatherTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -66,6 +60,15 @@
               <folding>
                 <element signature="e#39#80#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jgiven-reports/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -159,10 +162,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-272" />
-    <option name="y" value="-1102" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-612" />
+    <option name="y" value="-2480" />
+    <option name="width" value="4356" />
+    <option name="height" value="2376" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,6 +180,11 @@
             <path>
               <item name="openweather" type="b2602c69:ProjectViewProjectNode" />
               <item name="openweather3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweather3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jgiven-reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openweather" type="b2602c69:ProjectViewProjectNode" />
@@ -392,7 +400,7 @@
       <workItem from="1571628314374" duration="5699000" />
       <workItem from="1571696119381" duration="24050000" />
       <workItem from="1571781995202" duration="9715000" />
-      <workItem from="1571981346617" duration="565000" />
+      <workItem from="1571981346617" duration="1182000" />
     </task>
     <servers />
   </component>
@@ -429,10 +437,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156879000" />
+    <option name="totallyTimeSpent" value="157496000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-272" y="-1102" width="1936" height="1056" extended-state="6" />
+    <frame x="-272" y="-1102" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
@@ -616,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jgiven-reports/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/osSpecificDownloads.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -701,6 +702,13 @@
           <folding>
             <element signature="e#39#80#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgiven-reports/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
