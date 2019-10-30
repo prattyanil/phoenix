@@ -26,7 +26,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 5500600
+              "durationInNanos": 3728600
             },
             {
               "name": "I POST a JSON Request with $",
@@ -47,7 +47,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 27986000
+              "durationInNanos": 39102700
             },
             {
               "name": "I print the JSON Response",
@@ -61,7 +61,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 33114800
+              "durationInNanos": 81463700
             },
             {
               "name": "get response",
@@ -75,7 +75,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 410200
+              "durationInNanos": 255100
             },
             {
               "name": "get response",
@@ -89,7 +89,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 225500
+              "durationInNanos": 270800
             },
             {
               "name": "The Assertion Should Pass $",
@@ -110,7 +110,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 9198500
+              "durationInNanos": 19416700
             },
             {
               "name": "The Assertion Should Pass $",
@@ -131,17 +131,17 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1823500
+              "durationInNanos": 1946900
             }
           ],
           "explicitArguments": [],
           "derivedArguments": [],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 4985291000
+          "durationInNanos": 3234753000
         }
       ],
-      "durationInNanos": 4985291000,
+      "durationInNanos": 3234753000,
       "executionStatus": "SUCCESS"
     },
     {
@@ -170,7 +170,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 777300
+              "durationInNanos": 1097400
             },
             {
               "name": "I POST a JSON Request with $",
@@ -192,7 +192,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 60800
+              "durationInNanos": 31300
             },
             {
               "name": "I print the JSON Response",
@@ -206,7 +206,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 2880500
+              "durationInNanos": 1805600
             },
             {
               "name": "get response",
@@ -220,7 +220,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 215800
+              "durationInNanos": 139400
             },
             {
               "name": "get response",
@@ -234,7 +234,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 184000
+              "durationInNanos": 160100
             }
           ],
           "explicitArguments": [],
@@ -243,7 +243,7 @@
           ],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 691479500
+          "durationInNanos": 639104400
         },
         {
           "caseNr": 2,
@@ -260,7 +260,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 386700
+              "durationInNanos": 1296700
             },
             {
               "name": "I POST a JSON Request with $",
@@ -282,7 +282,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 43800
+              "durationInNanos": 44300
             },
             {
               "name": "I print the JSON Response",
@@ -296,7 +296,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1971500
+              "durationInNanos": 1754900
             },
             {
               "name": "get response",
@@ -310,7 +310,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1333800
+              "durationInNanos": 188700
             },
             {
               "name": "get response",
@@ -324,7 +324,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 149200
+              "durationInNanos": 128600
             }
           ],
           "explicitArguments": [],
@@ -333,10 +333,10 @@
           ],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 748479300
+          "durationInNanos": 598918300
         }
       ],
-      "durationInNanos": 1439958800
+      "durationInNanos": 1238022700
     },
     {
       "className": "au.com.OpenWeatherTestPackage.OpenWeatherAPITest",
@@ -368,7 +368,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 429300
+              "durationInNanos": 292500
             },
             {
               "name": "I send a GET Request with",
@@ -382,7 +382,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 34100
+              "durationInNanos": 41600
             },
             {
               "name": "I print the JSON Response",
@@ -396,7 +396,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1348600
+              "durationInNanos": 1199900
             },
             {
               "name": "get response",
@@ -410,7 +410,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 279000
+              "durationInNanos": 139400
             },
             {
               "name": "get response",
@@ -424,7 +424,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 126800
+              "durationInNanos": 91000
             },
             {
               "name": "get response",
@@ -438,7 +438,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 135100
+              "durationInNanos": 128300
             },
             {
               "name": "get response",
@@ -452,7 +452,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 161900
+              "durationInNanos": 88600
             },
             {
               "name": "get response",
@@ -466,7 +466,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 148700
+              "durationInNanos": 98900
             },
             {
               "name": "The Assertion Should Pass $",
@@ -488,7 +488,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1137600
+              "durationInNanos": 1368200
             },
             {
               "name": "The Assertion Should Pass $",
@@ -510,7 +510,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 740000
+              "durationInNanos": 1069000
             },
             {
               "name": "The Assertion Should Pass $",
@@ -532,7 +532,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 849900
+              "durationInNanos": 1248100
             },
             {
               "name": "The Assertion Should Pass $",
@@ -554,7 +554,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1015300
+              "durationInNanos": 1072600
             },
             {
               "name": "The Assertion Should Pass $",
@@ -576,7 +576,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1028400
+              "durationInNanos": 1120100
             }
           ],
           "explicitArguments": [],
@@ -589,7 +589,7 @@
           ],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 696589700
+          "durationInNanos": 668185200
         },
         {
           "caseNr": 2,
@@ -606,7 +606,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 159300
+              "durationInNanos": 238600
             },
             {
               "name": "I send a GET Request with",
@@ -620,7 +620,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 39500
+              "durationInNanos": 29000
             },
             {
               "name": "I print the JSON Response",
@@ -634,7 +634,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 2166800
+              "durationInNanos": 1436900
             },
             {
               "name": "get response",
@@ -648,7 +648,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 137100
+              "durationInNanos": 149800
             },
             {
               "name": "get response",
@@ -662,7 +662,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 152800
+              "durationInNanos": 154200
             },
             {
               "name": "get response",
@@ -676,7 +676,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 113800
+              "durationInNanos": 139000
             },
             {
               "name": "get response",
@@ -690,7 +690,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 126800
+              "durationInNanos": 143300
             },
             {
               "name": "get response",
@@ -704,7 +704,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 172900
+              "durationInNanos": 126100
             },
             {
               "name": "The Assertion Should Pass $",
@@ -726,7 +726,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 730500
+              "durationInNanos": 740900
             },
             {
               "name": "The Assertion Should Pass $",
@@ -748,7 +748,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 820000
+              "durationInNanos": 577800
             },
             {
               "name": "The Assertion Should Pass $",
@@ -770,7 +770,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 713200
+              "durationInNanos": 593000
             },
             {
               "name": "The Assertion Should Pass $",
@@ -792,7 +792,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 708600
+              "durationInNanos": 628200
             },
             {
               "name": "The Assertion Should Pass $",
@@ -814,7 +814,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 687200
+              "durationInNanos": 767000
             }
           ],
           "explicitArguments": [],
@@ -827,10 +827,10 @@
           ],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 664575100
+          "durationInNanos": 653346700
         }
       ],
-      "durationInNanos": 1361164800
+      "durationInNanos": 1321531900
     }
   ],
   "tagMap": {}

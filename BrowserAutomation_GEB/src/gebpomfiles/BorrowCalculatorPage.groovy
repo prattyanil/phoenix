@@ -1,9 +1,7 @@
 package gebpomfiles
 
 import geb.Page
-import org.hamcrest.Matcher
-
-import static org.junit.Assert.assertThat
+import geb.module.Select
 
 
 class BorrowCalculatorPage extends Page
@@ -16,7 +14,7 @@ class BorrowCalculatorPage extends Page
     static content = {
         application_type_single(wait: true) { $("label[for='application_type_single']")  }
         application_type_joint(wait: true) { $("label[for='application_type_joint']")  }
-        number_of_dependents(wait: true) { $("select[title='Number of dependants']")  }
+        number_of_dependents(wait: true) { $("select[title='Number of dependants']").module(Select)  }
         home_to_live_in(wait: true) { $("label[for='borrow_type_home']")  }
         residential_investment(wait: true) { $("label[for='borrow_type_investment']")  }
 
@@ -37,10 +35,16 @@ class BorrowCalculatorPage extends Page
 
     }
 
-    def "Populate Estimation Details"(your_income, your_other_income, living_expenses, current_homeloan, other_loan, other_commitments, creditcard_limits)
+    def "Populate Estimation Details"(type, num_dependents, your_income, your_other_income, living_expenses, current_homeloan,
+                                      other_loan, other_commitments, creditcard_limits)
     {
-        application_type_single.click()
-        //number_of_dependents.value("0")
+        if (type =="Single"){
+            application_type_single.click()
+        } else if(type =="Joint"){
+            application_type_joint.click()
+        }
+
+        number_of_dependents << num_dependents
         home_to_live_in.click()
 
         your_income_textbox << your_income
@@ -63,6 +67,7 @@ class BorrowCalculatorPage extends Page
     def "Fetch estimation details"(){
 
         def myList = []
+
         myList.add(your_income_textbox.text())
         myList.add(your_other_income_textbox.text())
         myList.add(living_expenses_textbox.text())
@@ -85,7 +90,7 @@ class BorrowCalculatorPage extends Page
         start_over.click()
         def res = "Fetch estimation details"()
         for (item in res) {
-            if (item != "") {
+            if (item != "")  {
                 flag = false
                 break
             }

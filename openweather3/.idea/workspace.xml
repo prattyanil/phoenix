@@ -6,10 +6,12 @@
       <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/aggregated_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/aggregated_report.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/gebspockspecfiles.TestSpec.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/gebspockspecfiles.TestSpec.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/build/spock-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/src/gebpomfiles/BorrowCalculatorPage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/src/gebpomfiles/BorrowCalculatorPage.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/src/gebspockspecfiles/TestSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/src/gebspockspecfiles/TestSpec.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/target/classes/gebspockspecfiles/TestSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/target/classes/gebspockspecfiles/TestSpec.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BrowserAutomation_GEB/target/classes/gebspockspecfiles/TestSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowserAutomation_GEB/target/classes/gebspockspecfiles/TestSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgiven-reports/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json" beforeDir="false" afterPath="$PROJECT_DIR$/jgiven-reports/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -51,6 +53,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/steps/openweather_api/Given.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#38#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/steps/openweather_api/Then.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#38#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/steps/openweather_api/When.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+              <folding>
+                <element signature="e#38#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -71,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jgiven-reports/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="-1105">
               <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
@@ -168,11 +206,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-612" />
-    <option name="y" value="-2480" />
-    <option name="width" value="4356" />
-    <option name="height" value="2376" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-14" />
+    <option name="y" value="-14" />
+    <option name="width" value="3229" />
+    <option name="height" value="1737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -407,14 +445,11 @@
       <workItem from="1571628314374" duration="5699000" />
       <workItem from="1571696119381" duration="24050000" />
       <workItem from="1571781995202" duration="9715000" />
-      <workItem from="1571981346617" duration="1182000" />
+      <workItem from="1571981346617" duration="3673000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenWeatherAPITest - 2019.10.22 at 16h 47m 43s.xml">
-      <configuration name="OpenWeatherAPITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OpenWeatherAPITest - 2019.10.22 at 16h 50m 06s.xml">
       <configuration name="OpenWeatherAPITest" configurationId="JUnit" />
     </history-entry>
@@ -442,14 +477,18 @@
     <history-entry file="OpenWeatherAPITest - 2019.10.23 at 14h 40m 17s.xml">
       <configuration name="OpenWeatherAPITest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OpenWeatherAPITest - 2019.10.30 at 14h 16m 37s.xml">
+      <configuration name="OpenWeatherAPITest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157496000" />
+    <option name="totallyTimeSpent" value="159987000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-272" y="-1102" width="1936" height="1056" extended-state="7" />
+    <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37708485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -458,7 +497,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39111593" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3903577" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +507,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3281493" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -477,7 +516,7 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.19616205" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.14865845" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -620,16 +659,6 @@
     <entry file="file://$PROJECT_DIR$/jgiven-reports/au.com.OpenWeatherTestPackage.GetCardBrandsByCardPrefixJSONFunc2.json" />
     <entry file="file://$PROJECT_DIR$/docs/groovy/groovy/au/com/nabtransact/regression/paymentserver/payment/PaymentPosFunc.html" />
     <entry file="file://$PROJECT_DIR$/docs/groovy/groovy/au/com/securepay/regression/payhive/package-frame.html" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/steps/openweather_api/Then.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#38#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/osSpecificDownloads.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -674,26 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/steps/openweather_api/Given.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#38#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/steps/openweather_api/When.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="e#38#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -713,8 +722,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jgiven-reports/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="-1105">
           <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/steps/openweather_api/Given.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#38#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/steps/openweather_api/Then.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#38#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/au/com/steps/openweather_api/When.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="e#38#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

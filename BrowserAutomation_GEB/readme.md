@@ -42,9 +42,9 @@ IDE Used : IntelliJ
 
 - gebspockspecfiles holds the main Test class with individual tests
 
-- gebpomfiles holds the page definitions under the Page Object Model
+- gebpomfiles holds the page definitions under the Page Object Model and the functions 
 
-- Spock Framework has been used to achive Data driven test
+- Spock Framework has been used to achieve Data driven test
   http://spockframework.org/spock/javadoc/1.0/spock/
 
 - This maven project can be integrated with any CI / CD Pipeline and can be run using maven command line commands
@@ -57,9 +57,9 @@ IDE Used : IntelliJ
 
 Scope of Improvements :
 
-- Building a centralized properties file for config and variable definations
-- Cleanup functions for deleting test registrations from DB 
-- Parametrization and optiization of the helper functions
+- Building a centralized properties file for config and variable definitions
+- Parametrization and optimization of the helper functions
+- Modules can be defined for recurring functions and can be reused across pages
 
 
  

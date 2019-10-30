@@ -3,8 +3,6 @@ package gebspockspecfiles
 import geb.spock.GebSpec
 import gebpomfiles.BorrowCalculatorPage
 import spock.lang.Unroll
-import org.hamcrest.Matcher
-import static org.junit.Assert.assertThat
 
 class TestSpec extends GebSpec
 {
@@ -14,41 +12,58 @@ class TestSpec extends GebSpec
     def "Borrowing Capacity Calculator Test"()
     {
 
-        given: "User is on Borrowing Capacity Calculator"
+        given: "User is on Borrowing Capacity Calculator Page"
         to BorrowCalculatorPage
 
         when: "Estimation details are populated"
-        "Populate Estimation Details"(your_income, your_other_income, living_expenses, current_homeloan,
+        "Populate Estimation Details"(app_type, num_dependants, your_income, your_other_income, living_expenses, current_homeloan,
                 other_loan, other_commitments, creditcard_limits)
 
-        and: "borrowing capacity is calculated"
+        and: "Borrowing capacity is calculated"
         "calculate borrowing capacity"()
 
         then: "Calculated borrowing estimate should be correct"
-        "Fetch borrowing estimate"() == expected_borrowing_estimate
+        assert "Fetch borrowing estimate"() == expected_borrowing_estimate
 
         where:
 
-        ID | your_income| your_other_income| living_expenses| current_homeloan| other_loan| other_commitments| creditcard_limits | expected_borrowing_estimate
-        0  | '80000'    | '10000'          |"500"           | "0"             | "100"     | "0"              |"10000"            | "\$470,000"
-        1  | '70000'    | '15000'          |"900"           | "0"             | "500"     | "0"              |"20000"            | "\$316,000"
+        ID | app_type| num_dependants| your_income| your_other_income| living_expenses| current_homeloan| other_loan| other_commitments| creditcard_limits | expected_borrowing_estimate
+        0  | "Single"| "0"           |'80000'     | '10000'          |"500"           | "0"             | "100"     | "0"              |"10000"            | "\$470,000"
+        1  | "Joint" | "2"           |'70000'     | '15000'          |"900"           | "0"             | "500"     | "0"              |"20000"            | "\$91,000"
 
     }
 
-    def "start over test"()
+    def "Start over test"()
     {
-        given: "User is on Borrowing Capacity Calculator"
+        given: "User is on Borrowing Capacity Calculator Page"
         to BorrowCalculatorPage
 
         when: "The estimation details are populated "
-        "Populate Estimation Details"("80000", "10000", "500", "0", "100", "0", "10000")
+        "Populate Estimation Details"("Joint", "1","80000", "10000", "500", "0", "100", "0", "10000")
         "calculate borrowing capacity"()
 
         and: "The start over button is clicked"
 
         then: "All data fields should be reset"
-        "start over test"()== true
+        assert "start over test"()== true
 
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
