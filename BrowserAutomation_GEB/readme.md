@@ -51,7 +51,7 @@ IDE Used : IntelliJ
 
 - The spock framework generates HTML and JSON reports and can be found under >>build/spock-reports which can be further customized
 
-- NOTE: The browser drivers needs to be placed under C:\PROJECT\DriverExe (part of BrowserAutomation_GEB project)
+- The browser drivers are placed under src/DriverExe (part of BrowserAutomation_GEB project)
 
 
 

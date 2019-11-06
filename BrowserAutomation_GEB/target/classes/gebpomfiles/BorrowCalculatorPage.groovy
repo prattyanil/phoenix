@@ -35,7 +35,8 @@ class BorrowCalculatorPage extends Page
 
     }
 
-    def "Populate Estimation Details"(type, num_dependents, your_income, your_other_income, living_expenses, current_homeloan, other_loan, other_commitments, creditcard_limits)
+    def "Populate Estimation Details"(type, num_dependents, your_income, your_other_income, living_expenses, current_homeloan,
+                                      other_loan, other_commitments, creditcard_limits)
     {
         if (type =="Single"){
             application_type_single.click()

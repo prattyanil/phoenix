@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-23T03:12:23" hostname="SPAY000227" time="5.481">
+<testsuite name="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-11-06T01:12:45" hostname="SPAY000227" time="5.641">
   <properties/>
-  <testcase name="Running openweather DEMO_Test" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="2.756"/>
-  <testcase name="open weather API Test 02 - New Station Registration[0]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.656"/>
-  <testcase name="open weather API Test 02 - New Station Registration[1]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.654"/>
-  <testcase name="open weather API Test 03 -Fetch Registered Stations[0]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.738"/>
-  <testcase name="open weather API Test 03 -Fetch Registered Stations[1]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.671"/>
+  <testcase name="Running openweather DEMO_Test" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="3.14"/>
+  <testcase name="open weather API Test 02 - New Station Registration[0]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.624"/>
+  <testcase name="open weather API Test 02 - New Station Registration[1]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.58"/>
+  <testcase name="open weather API Test 03 -Fetch Registered Stations[0]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.642"/>
+  <testcase name="open weather API Test 03 -Fetch Registered Stations[1]" classname="au.com.OpenWeatherTestPackage.OpenWeatherAPITest" time="0.648"/>
   <system-out><![CDATA[
 Test Class: au.com.OpenWeatherTestPackage.OpenWeatherAPITest
 
