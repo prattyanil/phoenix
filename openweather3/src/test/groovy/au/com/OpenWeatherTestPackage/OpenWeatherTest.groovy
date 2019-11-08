@@ -19,7 +19,7 @@ import static org.hamcrest.Matchers.is
 @Slf4j
 class OpenWeatherAPITest extends ScenarioSpec<Given, When, Then> {
 
-    @Shared DEMO_TEST001_ID , DEMO_TEST002_ID
+    @Shared DEMO_TEST001_ID , DEMO_TEST002_ID, myStationList = []
     @Shared APPID = "446653a2d7058513f24b4a74fc95660f"
     @Shared baseURL = "http://api.openweathermap.org/data/3.0"
 
@@ -74,6 +74,7 @@ class OpenWeatherAPITest extends ScenarioSpec<Given, When, Then> {
         if (res_external_id == 'DEMO_TEST001') {DEMO_TEST001_ID = when().response.jsonPath().get("ID")
         }else if(res_external_id == 'DEMO_TEST002'){DEMO_TEST002_ID = when().response.jsonPath().get("ID")}
 
+
         then().API_Response_should_be_$(is(equalTo(expectedAPIresponse)))
 
         where:
@@ -111,5 +112,22 @@ class OpenWeatherAPITest extends ScenarioSpec<Given, When, Then> {
         2  |'DEMO_TEST001'| 'Team Demo Test Station 001'    | 33.33    |  -122.43 | 222     | "/stations/"+ DEMO_TEST001_ID + "?APPID=" + APPID
         1  |'DEMO_TEST002'| 'Team Demo Test Station 002'    | 44.44    |  -122.44 | 111     | "/stations/"+ DEMO_TEST002_ID + "?APPID=" + APPID
     }
+
+    @Unroll()
+    def "clean up"() {
+
+        given().I_have_sent_a_request_to_the_openweather_API()
+
+        when().I_send_a_DELETE_Request_with(baseURL,uriPath)
+
+        def resp = when().response.getStatusCode()
+        then().The_Assertion_Should_Pass_$(resp.toString(), resp.toString() , is(equalTo("204")))
+
+        where:
+
+        ID |  name                           | uriPath
+        2  | 'Team Demo Test Station 001'    | "/stations/"+ DEMO_TEST001_ID + "?APPID=" + APPID
+        1  | 'Team Demo Test Station 002'    | "/stations/"+ DEMO_TEST002_ID + "?APPID=" + APPID
+      }
 
 }

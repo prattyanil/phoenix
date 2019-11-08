@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae73d7c5-579d-452e-b0cc-5e0ad85eeef5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spock-reports/gebspockspecfiles.TestSpec.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/gebspockspecfiles.TestSpec.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spock-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonlib/GlobalConstants.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonlib/GlobalConstants.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gebpomfiles/BorrowCalculatorPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gebpomfiles/BorrowCalculatorPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gebpomfiles/BorrowCalculatorPage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gebpomfiles/BorrowCalculatorPage.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/.gradle/4.0/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/.gradle/4.0/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/.gradle/4.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/.gradle/4.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/.gradle/4.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/.gradle/4.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/.gradle/4.0/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/.gradle/4.0/taskHistory/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/.gradle/4.0/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/.gradle/4.0/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/.gradle/4.0/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/.gradle/4.0/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../openweather3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/jgiven-results/test/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/build/jgiven-results/test/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/libs/openweather.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/reports/jgiven/test/html/data/data0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/build/reports/jgiven/test/html/data/data0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/reports/jgiven/test/html/data/metaData.js" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/build/reports/jgiven/test/html/data/metaData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/reports/jgiven/test/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/reports/tests/test/classes/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/build/reports/tests/test/classes/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/reports/tests/test/packages/au.com.OpenWeatherTestPackage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/build/reports/tests/test/packages/au.com.OpenWeatherTestPackage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/test-results/test/TEST-au.com.OpenWeatherTestPackage.OpenWeatherAPITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/build/test-results/test/TEST-au.com.OpenWeatherTestPackage.OpenWeatherAPITest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/tmp/test/jar_extract_1254678788119276839_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/build/tmp/test/jar_extract_7618038916653479247_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openweather3/jgiven-reports/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/jgiven-reports/au.com.OpenWeatherTestPackage.OpenWeatherAPITest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openweather3/src/test/groovy/au/com/OpenWeatherTestPackage/OpenWeatherTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather3/src/test/groovy/au/com/OpenWeatherTestPackage/OpenWeatherTest.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -62,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gebpomfiles/BorrowCalculatorPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="23" />
               <folding>
                 <element signature="e#21#36#0" expanded="true" />
               </folding>
@@ -86,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="289">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -104,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/commonlib/GroovyUtils.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
+            <state relative-caret-position="-344">
               <caret line="65" column="84" lean-forward="true" selection-start-line="65" selection-start-column="78" selection-end-line="65" selection-end-column="95" />
               <folding>
                 <element signature="e#20#56#0" expanded="true" />
@@ -174,11 +145,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1648" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2120" />
+    <option name="y" value="-991" />
+    <option name="width" value="860" />
+    <option name="height" value="469" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -372,14 +343,11 @@
       <workItem from="1571876739744" duration="14157000" />
       <workItem from="1571894429295" duration="12002000" />
       <workItem from="1571980052132" duration="21700000" />
-      <workItem from="1572994795685" duration="2108000" />
+      <workItem from="1572994795685" duration="5789000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSpec_start_over_test - 2019.10.30 at 16h 09m 41s.xml">
-      <configuration name="TestSpec.start over test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSpec_start_over_test - 2019.10.30 at 16h 10m 24s.xml">
       <configuration name="TestSpec.start over test" configurationId="JUnit" />
     </history-entry>
@@ -407,15 +375,18 @@
     <history-entry file="TestSpec_(1) - 2019.11.06 at 15h 18m 14s.xml">
       <configuration name="TestSpec (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSpec_(1) - 2019.11.06 at 15h 26m 41s.xml">
+      <configuration name="TestSpec (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49967000" />
+    <option name="totallyTimeSpent" value="53648000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1648" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="2120" y="-991" width="860" height="469" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -424,7 +395,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9047619" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,7 +412,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.12526652" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.29375" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -530,16 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gebpomfiles/BorrowCalculatorPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
-          <folding>
-            <element signature="e#21#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gebspockspecfiles/TestSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -547,13 +508,6 @@
           <folding>
             <element signature="e#27#51#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -567,12 +521,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonlib/GroovyUtils.groovy">
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="464">
+            <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="65" column="84" lean-forward="true" selection-start-line="65" selection-start-column="78" selection-end-line="65" selection-end-column="95" />
+        <state relative-caret-position="289">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gebpomfiles/BorrowCalculatorPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="23" />
           <folding>
-            <element signature="e#20#56#0" expanded="true" />
+            <element signature="e#21#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -584,13 +555,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="464">
-            <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/commonlib/GroovyUtils.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="65" column="84" lean-forward="true" selection-start-line="65" selection-start-column="78" selection-end-line="65" selection-end-column="95" />
+          <folding>
+            <element signature="e#20#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

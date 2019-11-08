@@ -26,7 +26,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 4300500
+              "durationInNanos": 2552300
             },
             {
               "name": "I POST a JSON Request with $",
@@ -47,7 +47,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 33154701
+              "durationInNanos": 9293000
             },
             {
               "name": "I print the JSON Response",
@@ -61,7 +61,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 47356300
+              "durationInNanos": 11591900
             },
             {
               "name": "get response",
@@ -75,7 +75,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 522500
+              "durationInNanos": 141600
             },
             {
               "name": "get response",
@@ -89,7 +89,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 387700
+              "durationInNanos": 178500
             },
             {
               "name": "The Assertion Should Pass $",
@@ -110,7 +110,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 9380000
+              "durationInNanos": 5600500
             },
             {
               "name": "The Assertion Should Pass $",
@@ -131,17 +131,17 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1092300
+              "durationInNanos": 699400
             }
           ],
           "explicitArguments": [],
           "derivedArguments": [],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 3521848500
+          "durationInNanos": 1437668700
         }
       ],
-      "durationInNanos": 3521848500,
+      "durationInNanos": 1437668700,
       "executionStatus": "SUCCESS"
     },
     {
@@ -170,7 +170,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 689400
+              "durationInNanos": 241000
             },
             {
               "name": "I POST a JSON Request with $",
@@ -192,7 +192,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 34699
+              "durationInNanos": 45800
             },
             {
               "name": "I print the JSON Response",
@@ -206,7 +206,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1991600
+              "durationInNanos": 1946100
             },
             {
               "name": "get response",
@@ -220,7 +220,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 136999
+              "durationInNanos": 185000
             },
             {
               "name": "get response",
@@ -234,7 +234,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 143599
+              "durationInNanos": 73900
             }
           ],
           "explicitArguments": [],
@@ -243,7 +243,7 @@
           ],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 645425600
+          "durationInNanos": 606956700
         },
         {
           "caseNr": 2,
@@ -260,7 +260,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 432000
+              "durationInNanos": 342400
             },
             {
               "name": "I POST a JSON Request with $",
@@ -282,7 +282,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 38599
+              "durationInNanos": 96900
             },
             {
               "name": "I print the JSON Response",
@@ -296,7 +296,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1107899
+              "durationInNanos": 2398900
             },
             {
               "name": "get response",
@@ -310,7 +310,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 151200
+              "durationInNanos": 61000
             },
             {
               "name": "get response",
@@ -324,7 +324,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 88500
+              "durationInNanos": 70100
             }
           ],
           "explicitArguments": [],
@@ -333,10 +333,10 @@
           ],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 591192000
+          "durationInNanos": 594669200
         }
       ],
-      "durationInNanos": 1236617600
+      "durationInNanos": 1201625900
     },
     {
       "className": "au.com.OpenWeatherTestPackage.OpenWeatherAPITest",
@@ -368,7 +368,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 174800
+              "durationInNanos": 125500
             },
             {
               "name": "I send a GET Request with",
@@ -382,7 +382,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 29400
+              "durationInNanos": 102100
             },
             {
               "name": "I print the JSON Response",
@@ -396,7 +396,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 845200
+              "durationInNanos": 2623100
             },
             {
               "name": "get response",
@@ -410,7 +410,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 154601
+              "durationInNanos": 53300
             },
             {
               "name": "get response",
@@ -424,7 +424,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 195600
+              "durationInNanos": 96300
             },
             {
               "name": "get response",
@@ -438,7 +438,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 116601
+              "durationInNanos": 81700
             },
             {
               "name": "get response",
@@ -452,7 +452,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 91500
+              "durationInNanos": 70400
             },
             {
               "name": "get response",
@@ -466,7 +466,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 93000
+              "durationInNanos": 69800
             },
             {
               "name": "The Assertion Should Pass $",
@@ -488,7 +488,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1216900
+              "durationInNanos": 520300
             },
             {
               "name": "The Assertion Should Pass $",
@@ -510,7 +510,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1026300
+              "durationInNanos": 410400
             },
             {
               "name": "The Assertion Should Pass $",
@@ -532,7 +532,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 868700
+              "durationInNanos": 430300
             },
             {
               "name": "The Assertion Should Pass $",
@@ -554,7 +554,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1041300
+              "durationInNanos": 347200
             },
             {
               "name": "The Assertion Should Pass $",
@@ -576,7 +576,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 973299
+              "durationInNanos": 318900
             }
           ],
           "explicitArguments": [],
@@ -589,7 +589,7 @@
           ],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 627676700
+          "durationInNanos": 591186300
         },
         {
           "caseNr": 2,
@@ -606,7 +606,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 285200
+              "durationInNanos": 169700
             },
             {
               "name": "I send a GET Request with",
@@ -620,7 +620,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 49800
+              "durationInNanos": 28600
             },
             {
               "name": "I print the JSON Response",
@@ -634,7 +634,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 1052500
+              "durationInNanos": 808000
             },
             {
               "name": "get response",
@@ -648,7 +648,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 124199
+              "durationInNanos": 65800
             },
             {
               "name": "get response",
@@ -662,7 +662,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 111800
+              "durationInNanos": 114100
             },
             {
               "name": "get response",
@@ -676,7 +676,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 84299
+              "durationInNanos": 66600
             },
             {
               "name": "get response",
@@ -690,7 +690,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 90701
+              "durationInNanos": 60000
             },
             {
               "name": "get response",
@@ -704,7 +704,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 86400
+              "durationInNanos": 59500
             },
             {
               "name": "The Assertion Should Pass $",
@@ -726,7 +726,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 713599
+              "durationInNanos": 471400
             },
             {
               "name": "The Assertion Should Pass $",
@@ -748,7 +748,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 517100
+              "durationInNanos": 315100
             },
             {
               "name": "The Assertion Should Pass $",
@@ -770,7 +770,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 509600
+              "durationInNanos": 307600
             },
             {
               "name": "The Assertion Should Pass $",
@@ -792,7 +792,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 521200
+              "durationInNanos": 295400
             },
             {
               "name": "The Assertion Should Pass $",
@@ -814,7 +814,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 645301
+              "durationInNanos": 294200
             }
           ],
           "explicitArguments": [],
@@ -827,10 +827,168 @@
           ],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 639808400
+          "durationInNanos": 585187900
         }
       ],
-      "durationInNanos": 1267485100
+      "durationInNanos": 1176374200
+    },
+    {
+      "className": "au.com.OpenWeatherTestPackage.OpenWeatherAPITest",
+      "testMethodName": "$spock_feature_1_3",
+      "description": "clean up",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": true,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I have sent a request to the openweather API",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I have sent a request to the openweather API"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 119300
+            },
+            {
+              "name": "I send a DELETE Request with",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I send a DELETE Request with"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 698564200
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 85000
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "204",
+                  "argumentInfo": {
+                    "argumentName": "response",
+                    "formattedValue": "204"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 693400
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 700974100
+        },
+        {
+          "caseNr": 2,
+          "steps": [
+            {
+              "name": "I have sent a request to the openweather API",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I have sent a request to the openweather API"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 132700
+            },
+            {
+              "name": "I send a DELETE Request with",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I send a DELETE Request with"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 591385400
+            },
+            {
+              "name": "get response",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "get response"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 255900
+            },
+            {
+              "name": "The Assertion Should Pass $",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "The Assertion Should Pass"
+                },
+                {
+                  "value": "204",
+                  "argumentInfo": {
+                    "argumentName": "response",
+                    "formattedValue": "204"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2137200
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 594925700
+        }
+      ],
+      "durationInNanos": 1295899800
     }
   ],
   "tagMap": {}
