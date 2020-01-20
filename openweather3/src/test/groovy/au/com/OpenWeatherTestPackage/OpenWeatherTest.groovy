@@ -129,5 +129,4 @@ class OpenWeatherAPITest extends ScenarioSpec<Given, When, Then> {
         2  | 'Team Demo Test Station 001'    | "/stations/"+ DEMO_TEST001_ID + "?APPID=" + APPID
         1  | 'Team Demo Test Station 002'    | "/stations/"+ DEMO_TEST002_ID + "?APPID=" + APPID
       }
-
 }
